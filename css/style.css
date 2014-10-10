@@ -1,0 +1,70 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html{
+	height: 100%;
+}
+
+body{
+	height: 100%;	
+	background: #009FE3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	padding: 10px;
+}
+
+#superglobal{
+	position : relative;
+	min-height: 100%;
+	text-align: center;
+}
+
+#flashContent{
+	position: relative;
+	min-height: 100%;
+	margin: 0 auto;
+	padding-bottom: 70px;
+}
+
+#pied{
+	position: absolute;
+	bottom: 0px;
+	height: 50px;
+	width: 100%;
+}
+
+
+a{
+	color: #006995;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+a:hover{
+	color: #ffffff;
+}
+
+#signature{
+	color: #006995;
+	text-decoration: none;
+	font-size: 12px;	
+}
+
+#logo img{
+	width: 200px;
+	height: auto;
+}
+
+h1{
+	color: #2095A8;
+	font-weight:lighter;
+	margin-top: 50px;
+}
+
+
+/******/
+
+
+
+.clearfix{
+	clear: both;	
+}
